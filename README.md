@@ -53,5 +53,5 @@ This repository contains a week-by-week progression of lab tasks completed durin
 
 ## 👨‍💻 Author
 
-**Syed Muhammad Yousuf** 
+**Syed Muhammad Yousuf** <br>
 Department of Computer Software Engineering, UET Mardan
