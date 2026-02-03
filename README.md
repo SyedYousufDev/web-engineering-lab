@@ -45,7 +45,7 @@ This repository contains a week-by-week progression of lab tasks completed durin
 
 ### Running a Specific Lab
 1.  **Clone** this repository.
-2.  **Navigate** to the specific lab folder (e.g., `/Experiment-08`).
+2.  **Navigate** to the specific lab folder and open the index.html file.(e.g., `/Experiment-08`).
 3.  For **PHP labs**, ensure the folder is placed in your `xampp/htdocs` directory.
 4.  For **React labs**, run `npm install` followed by `npm start`.
 
@@ -53,4 +53,5 @@ This repository contains a week-by-week progression of lab tasks completed durin
 
 ## 👨‍💻 Author
 
-**Syed Muhammad Yousuf** Department of Computer Software Engineering, UET Mardan
+**Syed Muhammad Yousuf** 
+Department of Computer Software Engineering, UET Mardan
