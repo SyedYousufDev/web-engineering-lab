@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_05_highlighting text</title>
+<style>
+#output {
+    width: 300px;
+    height: 200px;
+    background-color: cyan;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 200px; /* vertical centering */
+    margin-top: 20px;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h3>Display of Selected Text Using onSelect Event</h3>
+
+<label>Select Text</label>
+<input type="text" id="txt" value="Select Text" onselect="showText()">
+
+<div id="output"></div>
+<script src="05_task_highlight.js"></script>
+</body>
+</html>
