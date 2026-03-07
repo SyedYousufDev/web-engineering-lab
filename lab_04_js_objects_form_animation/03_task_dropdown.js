@@ -20,6 +20,8 @@ textbox.addEventListener("keydown", function(e) {
             textbox.value = "";           
             textbox.style.display = "none"; 
             dropdown.style.display = "inline"; 
+            button.style.display = "inline"; 
+            
         }
     }
 });
