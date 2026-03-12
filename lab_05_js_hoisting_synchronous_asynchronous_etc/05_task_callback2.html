@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task # 05: Callback 2</title>
+</head>
+<body>
+    <script>
+  function fetchUserData(callback) {
+    console.log("Fetching...");
+    setTimeout(() => {
+      const user = { name: "Yousuf", age: 22 };
+      callback(user);
+    }, 10000); // 10 seconds
+  }
+    fetchUserData((user) => {
+    console.log("After 10 sec:- User received:", user);
+  });
+</script>
+</body>
+</html>
