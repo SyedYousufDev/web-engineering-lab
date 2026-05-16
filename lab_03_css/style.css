@@ -1,0 +1,181 @@
+/* ================= GENERAL ================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* ================= HEADER ================= */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+}
+
+.logo {
+    font-size: 28px;
+    color: #5a0033;
+    font-weight: bold;
+}
+
+.search-section input {
+    padding: 8px;
+    width: 200px;
+}
+
+.search-section button {
+    padding: 8px 12px;
+    background-color: #7a1fa2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #4a0072;
+}
+
+/* ================= MENU ================= */
+nav {
+    background: linear-gradient(to right, #cddc39, #9e9d24);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 15px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+    border-right: 1px solid #555;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li:hover {
+    background-color: #ffeb3b;
+}
+
+.active {
+    background-color: #ffeb3b;
+}
+
+/* ================= LAYOUT ================= */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* ================= SIDE BARS ================= */
+aside {
+    width: 20%;
+    background-color: #e8f5e9;
+    padding: 15px;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+aside ul li img {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+aside ul li:hover {
+    background-color: #c5e1a5;
+    transform: scale(1.05);
+}
+
+/* ================= MAIN CONTENT ================= */
+main {
+    width: 60%;
+    background-color: #aed581;
+    padding: 20px;
+    margin: 0 15px;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background: linear-gradient(to right, #4a148c, #880e4f);
+}
+/* ================= SECOND SECTION ================= */
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.box {
+    width: 45%;
+    background-color: #f5f5f5;
+    border: 2px solid #8bc34a;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box h3 {
+    color: purple;
+}
+
+/* Bullet Style */
+.web-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.web-list li {
+    margin: 6px 0;
+}
+
+/* Check Mark Style */
+.check-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.check-list li {
+    margin: 8px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+/* Green Check Icon */
+.check-list li::before {
+    content: "✔";
+    color: green;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
