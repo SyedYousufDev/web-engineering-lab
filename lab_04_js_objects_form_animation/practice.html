@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj_one = {
+            firstname:"Yousuf",
+            lastname:"Bukhari",
+            age:"23",
+
+            address:["Mardan","kpk"],
+            skills:{
+                extraduty:"CR",
+                designation:"Student",
+                interest:"Web Engineering"}
+
+        };
+        document.write("First name is "+ obj_one.firstname +"<br>")
+        document.write("Last name is "+ obj_one.lastname +"<br>")
+        document.write("Age is : "+ obj_one.age +"<br>")
+        document.write("Address is "+obj_one.address +"<br>")
+        document.write("Address is "+ obj_one.address[1] +"<br><br>")
+
+        var obj_two={
+            skills:{
+                extraduty:"CR",
+                designation:"Student",
+                interest:"Web Engineering"
+            }
+        }
+        document.write("Extra duty is "+ obj_two.skills.extraduty +"<br>")
+        document.write("Designation is "+ obj_two.skills.designation +"<br>")
+        document.write("Interest  is "+ obj_two.skills.interest +"<br><br><br><br>")
+
+
+        for(let data in obj_one){
+            if(typeof(obj_one[data]==="object")){
+                for(let nestedproperty in data)
+                    document.write(obj_one[data][nestedproperty]+ "<br />")
+                
+            }
+            else
+               document.write(obj_one[data]+"<br>")
+        }
+
+
+    </script>
+</body>
+</html>
